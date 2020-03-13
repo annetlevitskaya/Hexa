@@ -2,25 +2,25 @@ const slides = [
     {
         title: 'Для зала',
         price: '50',
-        image: "url('../img/bedroom-1.png')",
+        image: "url('./img/bedroom-1.png')",
         id: 1
     },
     {
         title: 'Для гостинной',
         price: '40',
-        image: "url('../img/livingroom-2.png')",
+        image: "url('./img/livingroom-2.png')",
         id: 2
     },
     {
         title: 'Для спальни',
         price: '35',
-        image: "url('../img/bedroom-2.png')",
+        image: "url('./img/bedroom-2.png')",
         id: 3
     },
     {
         title: 'Для кухни',
         price: '60',
-        image: "url('../img/kitchen-2.png')",
+        image: "url('./img/kitchen-2.png')",
         id: 4
     }
 ]
