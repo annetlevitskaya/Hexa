@@ -16,11 +16,11 @@ var gulp = require('gulp'),
 
 var path = {
     build: {
-        html: 'build/',
-        js: 'build/js/',
-        css: 'build/css/',
-        img: 'build/img/',
-        fonts: 'build/fonts/'
+        html: 'dist/',
+        js: 'dist/js/',
+        css: 'dist/css/',
+        img: 'dist/img/',
+        fonts: 'dist/fonts/'
     },
     src: {
         html: 'src/*.html',
@@ -36,12 +36,12 @@ var path = {
         img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
-    clean: './build'
+    clean: './dist'
 };
 
 var config = {
     server: {
-        baseDir: "./build"
+        baseDir: "./dist"
     },
     // tunnel: 'true',
     host: 'localhost',
